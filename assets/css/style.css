@@ -1,79 +1,150 @@
 body {
     background-color: greenyellow;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
-
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-}
-
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px 23px 14px;
-    text-decoration: none;
-    font-size: 17px;
-    
-
-}
-
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.topnav a.active {
-    color:green;
-}
-
-.name {
-    float: right;
-    color: #f2f2f2;
+#right {
     margin-right: 50px;
-
 }
-
-.content {
-    padding-left: 50px;
-   
+.ngopi{
+    text-align: center;
+    font-family: 'Spicy Rice', cursive;
+    margin-bottom: 2em;
 }
-
-.text {
-    margin: 12px;
-    padding-left: 10px;
-    margin-bottom: 50px;
+.card-style {
+    height: 400px;
 }
-
-.video {
+.card-space {
     display: flex;
-    justify-content: space-between;
-    margin: 0px 20px 0px ;
+    justify-content: center;
+    margin-top: 5em;
 }
-
-.p {
-    padding: 0px 50px 0px 0px;
+.percobaan {
+    margin-top : 3.3%;
+    margin-bottom: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.some {
-    margin-left: 20px;
+.kotak {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
 }
-.botom {
-    display: block;
-    background-color: #333;
-    padding: 20px 0px 20px 0px;
-    margin-top: 20px;
+.awas-atas{
+    margin-top: 1em;
+}
+.judul{
+    font-family: 'Spicy Rice', cursive;
+}
+.isi {
+    font-family: 'Crimson Text', serif;
+}
+.gaya {
+    overflow: hidden;
+    padding: 0px 5px 0px 5px;
+    background-color: indigo;
+    border-radius: 10%;
+    color:black;
+    
+}
+.ubur-ubur {
+    height: 30em;
+}
+.awas-bawah {
+    margin-bottom: 1em;
+}
+.div-section {
+    background-color: whitesmoke;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.judul-social{
+    margin-bottom: 5em;
+    color:black;
     text-align: center;
 
 }
-
-.tengah {
-    margin-top: 50px;
+.size-social{
+    width: 7em;
 }
-
-.h{
-    text-align: center;
-    font-size: 45px;
-    font-family: 'Gotu', sans-serif;
+.iconss {
+    display: flex;
+    justify-content: space-around;
+    
 }
+.size-form {float: center;
+    margin-top: 3%;
+    margin-bottom: 3%;  
+    padding-top: 4%;
+    padding-bottom: 0%;
+}
+.form-mesage {
+    margin-top:10%;
+}
+.sbmt{
+    padding: 10px 20px 10px 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    background-color:indigo;
+    color: ivory;
+    border-radius: 10%;
+}
+.sbmt-loc{
+    display: flex;
+    justify-content: center;
+}
+.section-form {
+    margin-bottom: 10%;
+}
+.footer-loc{
+    background:black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8em;
+    padding: 5% 2% 2% ;
+    color: white;
+}
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5em;
+    align-self: center;
+
+    
+}
+.footer-text {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.footer-music{
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 5em;
+    padding-right: 5em;
+    align-items: center;
+
+}
+/* .a-music{
+    color:white;
+    font-size: 20px;
+}
+.a-music:link{
+    text-decoration: none;
+}
+.a-music:visited{
+    text-decoration: none;
+}
+.a-music:hover{
+    text-decoration: underline
+}
+.a-music:active{
+    text-decoration: underline;
+} */
