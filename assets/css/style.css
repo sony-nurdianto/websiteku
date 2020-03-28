@@ -9,6 +9,7 @@ body {
     text-align: center;
     font-family: 'Spicy Rice', cursive;
     margin-bottom: 2em;
+    color: indigo;
 }
 .card-style {
     height: 400px;
@@ -40,6 +41,7 @@ body {
 }
 .judul{
     font-family: 'Spicy Rice', cursive;
+    color: indigo;
 }
 .isi {
     font-family: 'Crimson Text', serif;
@@ -148,3 +150,20 @@ body {
 .a-music:active{
     text-decoration: underline;
 } */
+
+.img-card{
+   display: block; 
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 100%;
+   height: 10em;
+}
+.ttl-card{
+    font-size: 1em;
+}
+.h-judul {
+    text-align: center;
+    margin-top: 2em;
+    font-family: 'Spicy Rice', cursive; 
+    color: indigo;
+}
