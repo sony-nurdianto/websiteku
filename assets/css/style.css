@@ -10,6 +10,7 @@ body {
     font-family: 'Spicy Rice', cursive;
     margin-bottom: 2em;
     color: indigo;
+    text-shadow: 2px 2px 4px #000000;
 }
 .card-style {
     height: 400px;
@@ -42,6 +43,7 @@ body {
 .judul{
     font-family: 'Spicy Rice', cursive;
     color: indigo;
+    text-shadow: 2px 2px 4px #000000;
 }
 .isi {
     font-family: 'Crimson Text', serif;
@@ -73,8 +75,13 @@ body {
     text-align: center;
 
 }
+.judul-socila-shadow{
+    text-shadow: 2px 2px 4px #000000;
+}
 .size-social{
     width: 7em;
+    
+    
 }
 .iconss {
     display: flex;
@@ -166,4 +173,13 @@ body {
     margin-top: 2em;
     font-family: 'Spicy Rice', cursive; 
     color: indigo;
+    text-shadow: 2px 2px 4px #000000;
+}
+.m-judul{
+    text-align: center;
+
+}
+.ok {
+        
+   
 }
